@@ -1,615 +1,325 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mogo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300,400,500,600,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbT1WI1j8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Uber</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header_inner">
-                <h5 class="header_logo">MoGo</h5>
-                <nav class="nav">
-                    <a href="" class="nav_link">About</a>
-                    <a href="" class="nav_link">Service</a>
-                    <a href="" class="nav_link">Work</a>
-                    <a href="" class="nav_link">Blog</a>
-                    <a href="" class="nav_link">Contact</a>
-                    <a href="" class="nav_link"><img src="img/header/cart.png" alt="" class="nav_link_img"></a>
-                    <a href="" class="nav_link"><img src="img/header/glass.png" alt="" class="nav_link_img"></a>
-                </nav>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">Со своим автомобилем</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">На автомобиле компании</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="subheader">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-6 col-md-5  col-lg-4 offset-lg-1">
+                        <img src="img/subheader/2-layers.png" alt="" class="logo_img">
+                        <div class="logo_text">Официальный партнер Uber в Москве</div>
+                    </div>
+                    <div class=" xs_hide col-6 col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+                        <div class="call_text">Звоните нам ежедневно</div>
+                        <a href="tel:84957970988" class="call_link">8 495 797 09 88</a>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                    <a href="tel:84957970988" class="xs_vissible call_link">8 495 797 09 88</a>
+                    <button class="subheader_btn">заказать звонок</button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <div class="intro">
+    <section class="intro">
         <div class="container">
-            <div class="intro_inner">
-                <div class="intro_title">Creative Template</div>
-                <div class="intro_subtitle">Welcome<br> to MoGo</div>
-                <img src="img/intro/introlink.png" alt="" class="intro_img"><br>
-                <button class="intro_btn btn--white">Learn more</button>
+            <div class="row">
+                <div class="col-md-10  offset-md-1">
+                    <h1 class="intro_title">КОМПАНИЯ UBER PARTNERS!</h1>
+                    <h2 class="intro_subtitle">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
+                    <div class="intro_text">
+                        Компания UBER динамически развивающаяся. Компания на рынке занимает лидирующее место среди
+                        таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у
+                        себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания
+                        начисляет бонусы за
+                        пиковое время.
+                        <br><br>
+                        Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве. Водители
+                        у нас
+                        зарабатывают от 80000- 120000 в месяц.</div>
+                    <button class="intro_btn">ОТПРАВИТЬ ЗАЯВКУ!</button>
+                </div>
             </div>
-
-            <div class="intro_lines">
-              <div class="intro_line">
-                <hr class="intro_linewhite">
-                <hr class="intro_linered">
-                <div class="intro_linetext"><span class="intro_linenumber">01</span> Intro</div>
-              </div>
-              <div class="intro_line">
-                <hr class="intro_linewhite">
-                <hr class="intro_linered">
-                <div class="intro_linetext"><span class="intro_linenumber">02</span> Intro</div>
-              </div>
-              <div class="intro_line">
-                <hr class="intro_linewhite">
-                <hr class="intro_linered">
-                <div class="intro_linetext"><span class="intro_linenumber">03</span> Intro</div>
-              </div>
-              <div class="intro_line">
-                <hr class="intro_linewhite">
-                <hr class="intro_linered">
-                <div class="intro_linetext"><span class="intro_linenumber">04</span> Intro</div>
-              </div>
-            </div>
-        </div>
+        </section>
     </div>
 
-    <div class="about">
+    <section class="reason">
+        <div class="reason_heading">
+            <div class="container">
+                <div class="reason_title">
+                    <div class="advantage blackback">преимущества</div>
+                    <div class="title black">8 причин начать работать с нами</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason_content">
+            <div class="container">
+                <div class="row">
+                    <div class="reason_blocks col-md-12">
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason1.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Никаких наличных, оплата происходит
+                                    автоматически</span><br>
+                                Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет
+                                никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя,
+                                Вам не нужно искать мелкие деньги для размена.</div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason2.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Комиссия 8% + БОНУСЫ</span><br>
+                                У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши
+                                конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают
+                                больше!</div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason3.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Высокий доход с гарантированными
+                                    выплатами</span><br>
+                                Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно
+                                оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги
+                                и ведение банковского счета.</div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason4.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Работа в удобное время, никаких
+                                    графиков</span><br>
+                                Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить,
+                                нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или
+                                праздничные дни! </div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason5.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Комфортное, прозрачное и простое
+                                    подключение</span><br>
+                                Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы
+                                присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения,
+                                через 1-2 дня Вы можете начинать работать!</div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason6.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Всегда большое количество
+                                    заказов</span><br>
+                                Приложение показывает, где на данный момент больше всего заказов и где действуют
+                                повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда
+                                приятные и абсолютно неконфликтные люди, которых приятно возить.</div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason7.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Круглосуточная поддержка</span><br>
+                                В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то
+                                непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
+                        </div>
+                        <div class="reason_block col-md-6">
+                            <img src="img/reason/reason8.png" alt="" class="reason_img">
+                            <div class="reason_text"><span class="reason_texttitle">Без шашечек и наклеек</span><br>
+                                Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его
+                                наклейками.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile">
         <div class="container">
-            <div class="inner">
-                <div class="inner_title">What we do</div>
-                <div class="inner_subtitle">Story about us</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
+            <div class="mobile_text">
+                <div class="advantage blackback">Возможности</div>
+                <div class="title black ">мобильное приложение убер</div>
+                <div class="subtitle blacksub">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя sсвой мобильный
+                телефон</div>
             </div>
-            <div class="about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
-        </div>
 
-        <div class="about_blocks">
-            <div class="about_item">
-                <div class="about_img">
-                <img src="img/about/aboutimg1.png" alt="" class="about_blockimg">
+            <div class="row">
+                <div class=" col-11 col-md-4 mobile_block background1">
+                    <div class="mobile_title">оформление заказа одним касанием</div>
+                    <div class="mobile_picture"></div>
                 </div>
-                <div class="about_content">
-                   <img src="img/about/aboutUSERS.png" alt="" class="about_content_img">
-                    <h5 class="about_content_text">super team</h5>
+                <div class=" col-11 col-md-4 mobile_block background2">
+                    <div class="mobile_title">надежная подача</div>
+                    <div class="mobile_picture"></div>
+                </div>
+                <div class="col-11 col-md-4 mobile_block background3">
+                    <div class="mobile_title">прозрачные цены</div>
+                    <div class="mobile_picture"></div>
+                </div>
+                <div class="col-11 col-md-4 mobile_block background4">
+                    <div class="mobile_title">безналичная оплата</div>
+                    <div class="mobile_picture"></div>
+                </div>
+                <div class="col-11 col-md-4 mobile_block background5">
+                    <div class="mobile_title">обратная связь</div>
+                    <div class="mobile_picture"></div>
+                </div>
+                <div class="col-11 col-md-4 mobile_block background6">
+                    <div class="mobile_title">разделить стоимость поездки</div>
+                    <div class="mobile_picture"></div>
                 </div>
             </div>
-            <div class="about_item">
-               <div class="about_img">
-                <img src="img/about/aboutimg2.png" alt="" class="about_blockimg">
-                </div>
-                <div class="about_content">
-                    <img src="img/about/aboutUSERS.png" alt="" class="about_content_img">
-                    <h5 class="about_content_text">super team</h5>
-                </div>
-            </div>
-            <div class="about_item">
-               <div class="about_img">
-                <img src="img/about/aboutimg3.png" alt="" class="about_blockimg">
-                </div>
-                <div class="about_content">
-                    <img src="img/about/aboutUSERS.png" alt="" class="about_content_img">
-                    <h5 class="about_content_text">super team</h5>
-                </div>
-           </div>
         </div>
-    </div>
+    </section>
 
-    <div class="number">
+    <section class="car">
         <div class="container">
-            <div class="number_blocks">
-                <div class="number_block">
-                    <div class="number_block_title">42</div>
-                    <div class="number_block_subtitle">Web Design Projects</div>
-                </div>
-                <div class="number_block">
-                    <div class="number_block_title">123</div>
-                    <div class="number_block_subtitle">happy client</div>
-                </div>
-                <div class="number_block">
-                    <div class="number_block_title">15</div>
-                    <div class="number_block_subtitle">award winner</div>
-                </div>
-                <div class="number_block">
-                    <div class="number_block_title">99</div>
-                    <div class="number_block_subtitle">cup of coffee</div>
-                </div>
-                <div class="number_block">
-                    <div class="number_block_title">24</div>
-                    <div class="number_block_subtitle">members</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="service">
-        <div class="container">
-            <div class="inner">
-                <div class="inner_title">We work with</div>
-                <div class="inner_subtitle">Amazing Services</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-                 </div>
-                <div class="service_blocks1">
-                    <div class="service_block">
-                        <img src="img/service/ser1.png" alt="" class="service_block_img">
-                        <div class="service_blocktitle">Photography</div>
-                        <div class="service_blocksubtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
-                    </div>
-                    <div class="service_block">
-                        <img src="img/service/ser2.png" alt="" class="service_block_img">
-                        <div class="service_blocktitle">Web Design</div>
-                        <div class="service_blocksubtitle">Ipsum dolor sit amet, consectetur<br>
-                        adipiscing elit,sed do eiusmod tempor.</div>
-                    </div>
-                    <div class="service_block">
-                        <img src="img/service/ser3.png" alt="" class="service_block_img">
-                        <div class="service_blocktitle">Creativity</div>
-                        <div class="service_blocksubtitle">Dolor sit amet, consectetur adipiscing elit,<br>
-                        sed do eiusmod tempor.</div>
-                    </div>
-                </div>
-
-                  <div class="service_blocks2">
-                    <div class="service_block">
-                        <img src="img/service/ser4.png" alt="" class="service_block_img">
-                        <div class="service_blocktitle">seo</div>
-                        <div class="service_blocksubtitle">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
-                    </div>
-                    <div class="service_block">
-                        <img src="img/service/ser5.png" alt="" class="service_block_img">
-                        <div class="service_blocktitle">Css/Html</div>
-                        <div class="service_blocksubtitle">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</div>
-                    </div>
-                    <div class="service_block">
-                        <img src="img/service/ser6.png" alt="" class="service_block_img">
-                        <div class="service_blocktitle">digital</div>
-                        <div class="service_blocksubtitle">Sit amet, consectetur adipiscing elit, sed<br>
-                        do eiusmod tempor.</div>
-                    </div>
-                </div>
-        </div>
-    </div>
-
-    <div class="phone">
-        <div class="container">
-            <div class="inner">
-                <div class="inner_title">For all devices</div>
-                <div class="inner_subtitle">Unique design</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-            </div>
-            <div class="phone_block">
-                <img src="img/phone/phone1.png" alt="" class="phone_block_img1">
-                <img src="img/phone/phone2.png" alt="" class="phone_block_img2">
-            </div>
-        </div>
-    </div>
-
-    <div class="info">
-        <div class="container">
-             <div class="inner">
-                <div class="inner_title">Serice</div>
-                <div class="inner_subtitle">what we do</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-            </div>
-            <div class="info_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
-        </div>
-
-       <div class="info_items">
-        <div class="info_item">
-            <img src="img/info/infoimg.png" alt="">
-        </div>
-
-        <div class="info_item">
-            <div class="accordion">
-                <div class="accordion_item">
-                    <div class="accordion_header">
-                        <img src="img/info/infopicture1.png" alt="" class="accordion_icon">
-                        <div class="accordion_title">Photography</div>
-                    </div>
-                    <div class="accordion_content">
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i></p>
-                    </div>
-                </div>
-
-                <div class="accordion_item">
-                    <div class="accordion_header">
-                        <img src="img/info/infopicture2.png" alt="" class="accordion_icon">
-                        <div class="accordion_title">creativity</div>
-                    </div>
-                    <div class="accordion_content">
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i></p>
-                    </div>
-                </div>
-
-                <div class="accordion_item">
-                    <div class="accordion_header">
-                        <img src="img/info/infopicture3.png" alt="" class="accordion_icon">
-                        <div class="accordion_title">web design</div>
-                    </div>
-                    <div class="accordion_content">
-                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="message">
-        <div class="container">
-            <div class="message_content">
-                <a href=""><img src="img/message/messageleft.png" alt="" class="message_arrow_left"></a>
-                <img src="img/message/messageimg.png" alt="" class="message_img">
-                <div class="message_text"><i>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-                quis nostrud exercitation.”</i><div class="message_linename"><img src="img/message/messageline.png" alt="" class="message_linename_img">Jon Doe</div></div>
-                <a href=""><img src="img/message/messageright.png" alt="" class="message_arrow_right"></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="team">
-        <div class="container">
-           <div class="inner">
-                <div class="inner_title">Who we are</div>
-                <div class="inner_subtitle">Meet our team</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-            </div>
-            <div class="info_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </div>
-
-            <div class="team_blocks">
-
-                <div class="team_item">
-                    <div class="team_item_img">
-                    <img src="img/team/team1.png" alt="" class="team_picture">
-                    </div>
-                    <div class="team_content">
-                       <div class="icon">
-                        <a class="content_icon" href="" ><i class="fa fa-facebook-f"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-twitter"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-pinterest-p"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-instagram"></i></a>
-                    </div>
-                   </div>
-                </div>
-
-                <div class="team_item">
-                    <div class="team_item_img">
-                    <img src="img/team/team2.png" alt="" class="team_picture">
-                    </div>
-                    <div class="team_content">
-                     <div class="icon">
-                        <a class="content_icon" href="" ><i class="fa fa-facebook-f"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-twitter"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-pinterest-p"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-instagram"></i></a>
-                     </div>
-                    </div>
-                </div>
-
-                <div class="team_item">
-                    <div class="team_item_img">
-                    <img src="img/team/team3.png" alt="" class="team_picture">
-                    </div>
-                    <div class="team_content">
-                     <div class="icon">
-                        <a class="content_icon" href="" ><i class="fa fa-facebook-f"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-twitter"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-pinterest-p"></i></a>
-                        <a class="content_icon" href=""><i class="fa fa-instagram"></i></a>
-                     </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="team_text">
-                <div class="team_text_picture1">
-                    <div class="team_text_title">Matthew Dix</div>
-                    <div class="team_text_subtitle">Graphic Design</div>
-                   </div>
-                <div class="team_text_picture1">
-                    <div class="team_text_title">Christopher Campbell</div>
-                    <div class="team_text_subtitle">Branding/UX design</div>
-                   </div>
-                <div class="team_text_picture1">
-                     <div class="team_text_title">Michael Fertig</div>
-                    <div class="team_text_subtitle">Developer</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="badges">
-        <div class="container">
-            <div class="badges_block">
-                <img src="img/badges/badges.png" alt="" class="badge">
-            </div>
-        </div>
-    </div>
-
-    <div class="work">
-       <div class="container">
-        <div class="inner">
-                <div class="inner_title">Who we are</div>
-                <div class="inner_subtitle">Meet our team</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-            </div>
-            <div class="info_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-       </div>
-        <div class="work_inner">
-          <div class="work_col">
-              <div class="work_item">
-                  <img src="img/work/work1.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
-              </div>
-              <div class="work_item">
-                  <img src="img/work/work5.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
-              </div>
+          <div class="car_text">
+            <div class="advantage whiteback">Возможности</div>
+            <div class="title white">Выбор - отличная штука!</div>
+            <div class="subtitle whitesub">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
           </div>
-          <div class="work_col">
-              <div class="work_item">
-                  <img src="img/work/work2.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
+
+          <div class="row">
+              <div class=" col-md-8  col-lg-6 offset-lg-1 col-xl-6 offset-xl-2">
+                  <img src="img/car/car.png" alt="" class="car_img">
               </div>
-              <div class="work_item">
-                  <img src="img/work/work6.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
-              </div>
-          </div>
-          <div class="work_col">
-              <div class="work_item">
-                  <img src="img/work/work3.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
-              </div>
-          </div>
-          <div class="work_col">
-              <div class="work_item">
-                  <img src="img/work/work4.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
-              </div>
-              <div class="work_item">
-                  <img src="img/work/work7.png" alt="" class="work_img">
-                  <div class="work_info">
-                      <img src="img/work/workPICTURE.png" alt="" class="work_picture">
-                      <div class="work_title">creatively designed</div>
-                      <div class="work_subtitle">Lorem ipsum dolor sit</div>
-                  </div>
+              <div class="col-md-5 offset-md-4 col-lg-4 offset-lg-4 car_content">
+                  Машины на каждый день.<br>
+                  Лучше, быстрее и дешевле, чем такси
               </div>
           </div>
         </div>
-    </div>
+    </section>
 
-    <div class="section">
+    <section class="require" id="require">
         <div class="container">
-            <div class="section_content">
-                <a href=""><img src="img/section/messageleft.png" alt="" class="section_arrow_left"></a>
-                <img src="img/section/section_img.png" alt="" class="section_photo">
-                <div class="section_text"> <div class="section_title"> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div><br>
-                <div class="section_subtitle"><img src="img/section/messageline.png" alt="" class="section_line">Joshua Earle</div>
+            <div class="require_text">
+                <div class="advantage blackback">возможности</div>
+                <div class="title black">условия и требования</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+              <div class="require_textblock">
+                <div class="require_textblock_title">УСЛОВИЯ: со своим авто:</div>
+                <ul>
+                    <li class="require_textblock_link">Подключаем к системе UBER  под 10%.</li>
+                    <li class="require_textblock_link">Ни каких взносов  0%!</li>
+                    <li class="require_textblock_link">Можем подключать удаленно без приезда в офис</li>
+                    <li class="require_textblock_link">ИП не требуется</li>
+                    <li class="require_textblock_link">Заказы распределяются без учета рейтинга ближайшим водителям</li>
+                    <li class="require_textblock_link">Работа только по безналичному расчету</li>
+                    <li class="require_textblock_link">Деньги перечисляем на карту водителю или наличными в офисе</li>
+                </ul>
+                <div class="require_textblock_subtitle"> В день заработок составляет 7000-12000р + бонус 3000т рублей</div>
+              </div>
                 </div>
-                <a href=""><img src="img/section/messageright.png" alt="" class="section_arrow_right"></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="clients">
-        <div class="container">
-            <div class="inner">
-                <div class="inner_title">Happy Clients</div>
-                <div class="inner_subtitle">What people say</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-            </div>
-          <div class="clients_content">
-            <div class="clients_info">
-                <img src="img/clients/clients1.png" alt="" class="clients_img">
-                <div class="clients_name">Matthew Dix</div>
-                <div class="clients_post">Graphic Design</div>
-                <img src="img/clients/clientsline.png" alt="" class="clients_line">
-                <div class="clients_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-                sed do eiusmod tempor incididunt ut labore et dolore<br>
-                magna aliqua. Ut enim ad minim.</div>
-            </div>
-            <div class="clients_info1">
-                <img src="img/clients/clients2.png" alt="" class="clients_img">
-                <div class="clients_name">Nick Karvounis</div>
-                <div class="clients_post">Graphic Design</div>
-                <img src="img/clients/clientsline.png" alt="" class="clients_line">
-                <div class="clients_text">Sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-                tempor incididunt ut labore et dolore magna aliqua. Ut<br>
-                enim ad minim veniam</div>
-            </div>
-            <div class="clients_info2">
-                <img src="img/clients/clients3.png" alt="" class="clients_img">
-                <div class="clients_name">Jaelynn Castillo </div>
-                <div class="clients_post">Graphic Design</div>
-                <img src="img/clients/clientsline.png" alt="" class="clients_line">
-                <div class="clients_text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
-                eiusmod tempor incididunt ut labore et dolore<br>
-                magna aliqua. Ut enim ad minim veniam</div>
-            </div>
-            <div class="clients_info3">
-                <img src="img/clients/clients4.png" alt="" class="clients_img">
-                <div class="clients_name">Mike Petrucci</div>
-                <div class="clients_post">Graphic Design</div>
-                <img src="img/clients/clientsline.png" alt="" class="clients_line">
-                <div class="clients_text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
-                eiusmod tempor incididunt ut labore et dolore<br>
-                magna aliqua. Ut enim ad minim veniam</div>
-            </div>
-
-         </div>
-        </div>
-    </div>
-
-    <div class="blog">
-        <div class="container">
-          <div class="inner">
-                <div class="inner_title">Our stories</div>
-                <div class="inner_subtitle">Latest blog</div>
-                <img class="inner_line" src="img/innerline.png" alt="">
-            </div>
-            <div class="blog_content">
-                <div class="blog_item">
-                    <img src="img/blog/blog1.png" alt="" class="blog_picture">
-                    <img src="img/blog/blog15jan.png" alt="" class="blog_img">
-                    <div class="blog_title">Lorem ipsum dolor sit amet</div>
-                    <div class="blog_subtitle">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <img src="img/blog/blog_line.png" alt="" class="blog_line">
-                    <div class="blog_icon">
-                    <div class="blog_view"><img src="img/blog/blogVIEW.png" alt="" class="blog_view_img">542</div>
-                    <div class="blog_comment">
-                    <img src="img/blog/blogcomment.png" alt="" class="blog_comment_img">
-                    17</div>
-                    </div>
+                <div class="col-md-6">
+                <div class="require_textblock">
+                  <div class="require_textblock_title">УСЛОВИЯ: на авто компании:</div>
+                  <ul>
+                      <li class="require_textblock_link">Предоставляем авто без залога</li>
+                      <li class="require_textblock_link">Без ежедневных выплат по аренде</li>
+                      <li class="require_textblock_link">Среда пятница и суббота работа на компанию остальные дни вы работаете на себя</li>
+                  </ul>
                 </div>
-
-                <div class="blog_item">
-                    <img src="img/blog/blog2.png" alt="" class="blog_picture">
-                    <img src="img/blog/blog14jan.png" alt="" class="blog_img">
-                    <div class="blog_title">sed do eiusmod tempor</div>
-                    <div class="blog_subtitle">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <img src="img/blog/blog_line.png" alt="" class="blog_line">
-                    <div class="blog_icon">
-                    <div class="blog_view"><img src="img/blog/blogVIEW.png" alt="" class="blog_view_img">992</div>
-                    <div class="blog_comment">
-                    <img src="img/blog/blogcomment.png" alt="" class="blog_comment_img">42</div>
-                    </div>
                 </div>
-
-                <div class="blog_item">
-                    <img src="img/blog/blog3.png" alt="" class="blog_picture">
-                    <img src="img/blog/blog12jan.png" alt="" class="blog_img">
-                    <div class="blog_title">incididunt ut labore et dolore</div>
-                    <div class="blog_subtitle">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    <img src="img/blog/blog_line.png" alt="" class="blog_line">
-                    <div class="blog_icon">
-                    <div class="blog_view"><img src="img/blog/blogVIEW.png" alt="" class="blog_view_img">1560</div>
-                    <div class="blog_comment">
-                    <img src="img/blog/blogcomment.png" alt="" class="blog_comment_img">
-                    98</div>
-                    </div>
+                <div class="col-md-6">
+                <div class="require_textblock warning">
+                  <div class="require_textblock_title">ТРЕБОВАНИЕ:</div>
+                  <ul>
+                      <li class="require_textblock_link">Наличие автомобиля без рекламы</li>
+                      <li class="require_textblock_link">Автомобиль не должен быть желтый и не с желтыми номерами</li>
+                      <li class="require_textblock_link">Машина не старше 3 лет</li>
+                      <li class="require_textblock_link">Стаж вождения не менее 3 лет</li>
+                      <li class="require_textblock_link">Дивайс на системе андроид 4.0и выше(самсунг)</li>
+                  </ul>
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="require_textblock warning">
+                  <div class="require_textblock_title">ДОКУМЕНТЫ:</div>
+                  <ul>
+                      <li class="require_textblock_link">Права 2 стороны</li>
+                      <li class="require_textblock_link">Паспорт лицевая сторона</li>
+                      <li class="require_textblock_link">СтС</li>
+                      <li class="require_textblock_link">Лицензия( если есть)</li>
+                      <li class="require_textblock_link">Номер телефона</li>
+                      <li class="require_textblock_link">Номер карты для перечисления денег(указать в письме)!</li>
+                  </ul>
+                </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="map">
+    <section class="map">
         <div class="container">
-            <div class="map_content">
-                <img src="img/map/mapimg.png" alt="" class="map_img"><br>
-                <a href="" class="map_text">Open map</a><br>
-                <img src="img/map/maplink.png" alt="" class="map_link">
+            <div class="map_text">
+                <div class="advantage whiteback">города</div>
+                <div class="title white">По всему миру</div>
+                <div class="subtitle whitesub">Мы в вашем городе и по всему миру</div>
             </div>
+
+            <a href="#" class="map_textend">посмотреть все города</a>
         </div>
-    </div>
-
-    <footer class="footer">
-        <div class="container">
-
-            <div class="footer_content">
-
-                <div class="footer_info">
-                    <div class="footer_info_title">MoGo</div>
-                    <div class="footer_info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
-                    <div class="footer_info_followers"><span class="footer_info_number">15k</span> followers</div>
-                    <img src="img/footer/footerlink.png" alt="" class="footer_info_img">
-                    <div class="footer_icon">
-                        <div class="footer_icon_text">Follow Us:</div>
-                        <a href=""><i class="fa fa-facebook-f"></i></a>
-                        <a href=""><i class="fa fa-twitter"></i></a>
-                        <a href=""><i class="fa fa-instagram"></i></a>
-                        <a href=""><i class="fa fa-pinterest-p"></i></a>
-                        <a href=""><i class="fa fa-google-plus"></i></a>
-                        <a href=""><i class="fa fa-youtube"></i></a>
-                        <a href=""><i class="fa fa-dribbble"></i></a>
-                        <a href=""><i class="fa fa-tumblr"></i></a>
-                    </div>
-                    <form action="" class="footer_form" name="Email">
-                        <input class="footer_email" type="text" placeholder="Your Email">
-                        <button class="footer_button">subscribe</button>
-                    </form>
-                </div>
-
-                <div class="footer_blog">
-                   <div class="footer_blog_text">blogs</div>
-                    <div class="footer_news">
-                        <img src="img/footer/footerblog1.png" alt="" class="footer_news_img">
-                        <div class="footer_news_title">Lorem ipsum dolor sit amet,
-                        consectetur adipiscing</div>
-                        <div class="footer_news_subtitle">Jan 9, 2016</div>
-                    </div>
-                    <div class="footer_news">
-                        <img src="img/footer/footerblog2.png" alt="" class="footer_news_img">
-                        <div class="footer_news_title">Consectetur adipiscing elit,<br>
-                        sed do eiusmod tempor</div>
-                        <div class="footer_news_subtitle">Jan 9, 2016</div>
-                    </div>
-                    <div class="footer_news">
-                        <img src="img/footer/footerblog3.png" alt="" class="footer_news_img">
-                        <div class="footer_news_title">sed do eiusmod tempor<br>
-                        incididunt ut labore</div>
-                        <div class="footer_news_subtitle">Jan 9, 2016</div>
-                    </div>
-                </div>
-                <div class="footer_insta">
-                    <div class="footer_insta_title">instagram</div>
-                    <div class="footer_insta_images">
-                        <img src="img/footer/footerinsta1.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta2.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta3.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta4.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta5.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta6.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta7.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta8.png" alt="" class="footer_insta_img">
-                        <img src="img/footer/footerinsta9.png" alt="" class="footer_insta_img">
-                    </div>
-                    <div class="footer_insta_subtitle">View more photos</div>
-                </div>
+    </section>
+</body>
+    <footer>
+        <div class="footer_line"></div>
+        <div class="footer">
+            <div>
+            <div class="footer_blockicon">
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
             </div>
-
-            <img src="img/footer/footerlinklong.png" alt="" class="footer_img">
-            <div class="footer_text">© 2016 MoGo free PSD template by <span class="footer_word">Laaqiq</span></div>
-
+            </div>
+            <div>
+            <div class="footer_block">
+                <div class="footer_block_text">
+                        <a href="#" class="footer_block_text_title">на главную</a>
+                        <a href="#" class="footer_block_text_title">города</a>
+                        <a href="#" class="footer_block_text_title">для водителей</a>
+                    </div>
+                    <div class="footer_block_subtext">
+                        <a href="#" class="footer_block_subtext_subtitle">центр поддержки</a>
+                        <a href="#" class="footer_block_subtext_subtitle">вакансии</a>
+                        <a href="#" class="footer_block_subtext_subtitle">разработчики</a>
+                        <a href="#" class="footer_block_subtext_subtitle">блог</a>
+                        <a href="#" class="footer_block_subtext_subtitle">о нас</a>
+                    </div>
+                    <div class="footer_block_text_language">русский</div>
+            </div>
+            </div>
+            <div>
+            <div class="footer_block_text_mobile">
+                <a href="" class="footer_block_text_mobile_img"> <img src="../img/footer/app_store.png" alt=""> </a>
+                <a href="" class="footer_block_text_mobile_img"><img src="../img/footer/google_play.png" alt=""></a>
+                <a href="" class="footer_block_text_mobile_img"><img src="../img/footer/windows_store.png" alt=""></a>
+            </div>
+            </div>
         </div>
     </footer>
-</body>
+
+    <script src="js/script.js"></script>
 </html>
